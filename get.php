@@ -14,7 +14,6 @@
 </form>
 
 <?php
-// Check if password is submitted
 if (isset($_GET['password'])) {
     $password = $_GET['password'];
     echo "<p>You entered: <strong>$password</strong></p>";
